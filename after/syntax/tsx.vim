@@ -70,7 +70,7 @@ endif
 
 
 syn region tsxRegion
-      \ contains=@Spell,@XMLSyntax,tsxRegion,@typescriptAll
+      \ contains=@NoSpell,@XMLSyntax,tsxRegion,@typescriptAll
       \ start=+\%(<\|\w\)\@<!<\z([a-zA-Z][a-zA-Z0-9:\-.]*\)+
       \ skip=+<!--\_.\{-}-->+
       \ end=+</\z1\_\s\{-}>+
