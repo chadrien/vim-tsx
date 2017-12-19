@@ -22,7 +22,7 @@ syn region embeddedTs
       \ matchgroup=NONE
       \ start=+{+
       \ end=+}+
-      \ contains=@NoSpell,@typescriptAll,xmlEntity,tsxRegion
+      \ contains=@typescriptAll,xmlEntity,tsxRegion
       \ contained
 
 " Add embeddedTs to everything where xmlString is used to allow for
